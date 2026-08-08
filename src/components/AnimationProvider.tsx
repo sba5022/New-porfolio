@@ -40,12 +40,12 @@ export default function AnimationProvider({ children }: { children: React.ReactN
           >
             <div className="space-y-4">
               <h2 className="text-headline-lg font-black tracking-tight text-on-background">
-                <ScrambleText text="Jensen Omega" duration={1.2} />
+                <ScrambleText text="Sumaia Binta Asad" duration={1.2} />
               </h2>
               <div className="flex items-center justify-center gap-2">
                 <span className="w-1.5 h-1.5 bg-accent rounded-full animate-ping"></span>
                 <p className="font-label-caps text-on-surface-variant tracking-[0.25em] text-[10px]">
-                  SOFTWARE DEVELOPER
+                  WEBSITE DEVELOPER
                 </p>
               </div>
             </div>

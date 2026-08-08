@@ -71,9 +71,24 @@ export default function Contact() {
           <h2 className="contact-fade-item font-headline-lg text-headline-lg leading-tight">
             Have a project?
             <br />
-            Let's talk!
+            Lets talk!
           </h2>
-          
+          <div className="contact-fade-item pt-6 flex items-center gap-4">
+<Magnetic>
+  <a
+    href="tel:+8801568646123"
+    aria-label="Call me"
+    title="Call me"
+    className="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-accent hover:text-background hover:border-accent transition-all duration-300"
+  >
+    <span className="material-symbols-outlined">
+      call
+    </span>
+    
+  </a>
+</Magnetic>
+<p>Contact with me</p>
+</div>
           <div className="contact-fade-item pt-4">
             <Magnetic>
               <button

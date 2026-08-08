@@ -129,7 +129,7 @@ export default function Hero() {
                 transition={{ duration: 1.3, delay: 0.6, ease: "easeOut" }}
                 alt="Sumaia"
                 className="w-full h-full object-cover select-none"
-                src="https://i.ibb.co.com/ZzqXn3RY/Screenshot-2026-05-22-at-9-32-38-PM.png"
+                 src="https://i.ibb.co.com/ZzqXn3RY/Screenshot-2026-05-22-at-9-32-38-PM.png"
               />
             </motion.div>
 

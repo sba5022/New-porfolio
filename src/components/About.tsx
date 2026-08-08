@@ -36,13 +36,13 @@ export default function About() {
 
   const services = [
     { icon: "computer", title: "Website Development" },
-    { icon: "cloud_queue", title: "Website Hosting" },
+    // { icon: "cloud_queue", title: "Website Hosting" },
   ];
 
   const stats = [
     { value: "20", suffix: "+", label: "Completed Projects" },
-    { value: "95", suffix: "%", label: "Client satisfaction" },
-    { value: "4", suffix: "+", label: "Months of experience" },
+    // { value: "95", suffix: "%", label: "Client satisfaction" },
+    { value: "6", suffix: "+", label: "Months of experience" },
   ];
 
   return (
@@ -83,9 +83,8 @@ export default function About() {
             <h2 className="font-headline-lg text-headline-lg">About me</h2>
           </div>
           <p className="about-fade-item font-body-lg text-on-surface-variant max-w-xl">
-            I started my software journey from photography. Through that, I learned to love
-            the process of creating from scratch. Since then, this has led me to software
-            development as it fulfills my love for learning and building things.
+            My journey into software development began with a passion for creating and building things from scratch. Over time, that passion grew into a love for web development, where I can combine creativity, problem-solving, and technology. I enjoy learning new skills, exploring modern technologies, and turning ideas into meaningful, functional, and user-friendly digital experiences.
+
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-gutter pt-margin">
             {stats.map((stat, index) => (

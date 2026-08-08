@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Magnetic from "./Magnetic";
 import ScrambleText from "./ScrambleText";
-
+import Link from "next/link";
 interface ConsoleLine {
   text: string;
   color: string;
@@ -115,17 +115,17 @@ export default function Projects() {
                 <ScrambleText text="View Github" triggerOnHover />
               </a>
             </Magnetic>
-            <Magnetic>
-              <a
-                className="flex items-center gap-base border-b border-accent py-base font-label-caps uppercase tracking-widest hover:text-accent transition-all cursor-pointer"
-                href="#"
-              >
-                View project{" "}
-                <span className="material-symbols-outlined text-sm animate-bounce">
-                  north_east
-                </span>
-              </a>
-            </Magnetic>
+           <Magnetic>
+  <Link
+    href="/viewprojects"
+    className="flex items-center gap-base border-b border-accent py-base font-label-caps uppercase tracking-widest hover:text-accent transition-all cursor-pointer"
+  >
+    View project{" "}
+    <span className="material-symbols-outlined text-sm animate-bounce">
+      north_east
+    </span>
+  </Link>
+</Magnetic>
           </div>
         </div>
 
