@@ -89,7 +89,7 @@ export default function Hero() {
               </button>
             </Magnetic>
             <Magnetic>
-              <a
+              <a className="bg-accent text-background px-margin py-base font-label-caps uppercase tracking-widest hover:invert transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
                 href="https://drive.google.com/file/d/1-pX1Vj-AWxCCFkfoLhcVv3kVP2mRQsRE/view?usp=drivesdk">
                 <ScrambleText text="My resume" triggerOnHover />
               </a>
