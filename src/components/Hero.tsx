@@ -90,7 +90,7 @@ export default function Hero() {
             </Magnetic>
             <Magnetic>
               <a
-                href="https://drive.google.com/file/d/1fF9bCNP8iJXwMd6r5iGlwkY7xXTOhA2J/view?usp=drivesdk" className="border-2 border-accent text-on-background px-margin py-base font-label-caps uppercase tracking-widest hover:bg-accent hover:text-background transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
+                href="https://drive.google.com/file/d/1-pX1Vj-AWxCCFkfoLhcVv3kVP2mRQsRE/view?usp=drivesdk">
                 <ScrambleText text="My resume" triggerOnHover />
               </a>
             </Magnetic>
