@@ -11,6 +11,29 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+   {
+    id: "digital-life-lesson",
+    name: "Digital Life Lesson",
+    image: "https://i.ibb.co.com/nMgYhp4T/Screenshot-2026-09-08-at-1-10-01-AM.png",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+    ],
+    description:
+      "Digital Life Lesson is a platform for creating, managing, and sharing digital life lessons and experiences.",
+    liveLink: "https://assignment-10-pink.vercel.app",
+    githubLink: "https://github.com/sba5022/Digital-Life-Lessons.git",
+    challenges: [
+      "Creating a responsive travel interface.",
+      "Building reusable components.",
+      "Managing layouts across different screen sizes.",
+    ],
+    improvements: [
+      "Add maps.",
+      "Add user reviews and ratings.",
+    ],
+  },
+
   {
     id: "ideavault",
     name: "IdeaVault",
@@ -39,30 +62,7 @@ export const projects: Project[] = [
     ],
   },
 
-  {
-    id: "wanderlust",
-    name: "Wanderlust",
-    image: "https://i.ibb.co.com/rW5VTnP/Screenshot-2026-08-07-at-1-21-55-PM.png",
-    technologies: [
-      "Next.js",
-      "Tailwind CSS",
-    ],
-    description:
-      "Wanderlust is a travel-focused web application designed to help users explore destinations and discover useful travel information.",
-    liveLink: "https://wanderlust-neon-one.vercel.app/",
-    githubLink: "https://github.com/sba5022/Wanderlust.git",
-    challenges: [
-      "Creating a responsive travel interface.",
-      "Building reusable components.",
-      "Managing layouts across different screen sizes.",
-    ],
-    improvements: [
-      "Add destination search.",
-      "Add maps.",
-      "Add user reviews and ratings.",
-    ],
-  },
-
+ 
   {
     id: "library",
     name: "Library",

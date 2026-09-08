@@ -89,9 +89,10 @@ export default function Hero() {
               </button>
             </Magnetic>
             <Magnetic>
-              <button className="border-2 border-accent text-on-background px-margin py-base font-label-caps uppercase tracking-widest hover:bg-accent hover:text-background transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
+              <a
+                href="https://drive.google.com/file/d/1fF9bCNP8iJXwMd6r5iGlwkY7xXTOhA2J/view?usp=drivesdk" className="border-2 border-accent text-on-background px-margin py-base font-label-caps uppercase tracking-widest hover:bg-accent hover:text-background transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
                 <ScrambleText text="My resume" triggerOnHover />
-              </button>
+              </a>
             </Magnetic>
           </div>
         </div>
@@ -129,7 +130,7 @@ export default function Hero() {
                 transition={{ duration: 1.3, delay: 0.6, ease: "easeOut" }}
                 alt="Sumaia"
                 className="w-full h-full object-cover select-none"
-                 src="https://i.ibb.co.com/ZzqXn3RY/Screenshot-2026-05-22-at-9-32-38-PM.png"
+                src="https://i.ibb.co.com/ZzqXn3RY/Screenshot-2026-05-22-at-9-32-38-PM.png"
               />
             </motion.div>
 
